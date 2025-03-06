@@ -1,0 +1,56 @@
+/*----------------------------------------------
+    # Screenshots style here
+----------------------------------------------*/
+.app-screenshot-area {
+    position: relative;
+
+    .screenshots-slider1 {
+        padding: 0 0 50px;
+
+        .screenshot-thumb-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+
+            img {
+                border-radius: 25px;
+                -webkit-border-radius: 25px;
+                -moz-border-radius: 25px;
+                -ms-border-radius: 25px;
+                -o-border-radius: 25px;
+            }
+        }
+
+        .slider-pagination {
+            position: absolute !important;
+            z-index: 10;
+            bottom: 0px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .swiper-pagination-bullet {
+            width: 10px;
+            height: 10px;
+            display: inline-block;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.76);
+            transition: background-color 0.3s;
+            margin: 0 5px;
+            -webkit-transition: background-color 0.3s;
+            -moz-transition: background-color 0.3s;
+            -ms-transition: background-color 0.3s;
+            -o-transition: background-color 0.3s;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: $white-color;
+        }
+
+    }
+}
